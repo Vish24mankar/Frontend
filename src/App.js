@@ -10,8 +10,9 @@ function App() {
       {/* <p>MultiVendor</p> */}
       <BrowserRouter>
         <Routes>
-          <Route path='dashboard' element={<Dashboard />} />
-           <Route path='sidenav' element={<SideNav />} />
+            <Route path='/' element={<Dashboard />} />
+            <Route path='dashboard' element={<Dashboard />} />
+            <Route path='sidenav' element={<SideNav />} />
         </Routes>
       </BrowserRouter>
     </div>
